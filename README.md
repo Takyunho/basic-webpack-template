@@ -32,6 +32,7 @@ webpack-dev-server: 개발용으로 Live Server를 실행(HMR)
 - 한국어로 잘 나와있다. 공식 문서도 참조!
   ○ https://webpack.kr/configuration/entry-context/
 
+
 Webpack.config.js 기본 구성 👇
 
 // 웹팩은 상세하게 설정이 가능하므로 작은 프로젝트보다 큰 프로젝트에서 유용하다.
@@ -96,8 +97,8 @@ module.exports = {
     // }
 }
 
-
-
+</br>
+</br>
 -- scss 설정하기 --
 1. Npm i -D sass-loader sass
 2. Module의 use에 설정하기
@@ -119,7 +120,8 @@ body {
 
 import "../scss/main.scss";
 
-
+</br>
+</br>
 -- autoprefixer 설치하기 --
 1. npm i -D postcss autoprefixer postcss-loader
 // autoprefixer란
@@ -143,10 +145,8 @@ import "../scss/main.scss";
 4. Root경로에 .postcss.rc.js 파일 추가 후 아래 내용 설정하기
 
 
-
-
-
-
+</br>
+</br>
 -- babel 설정하기 --
 1. npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime
 2. Npm i -D babel-loader
