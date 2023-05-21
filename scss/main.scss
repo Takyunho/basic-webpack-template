@@ -1,0 +1,20 @@
+$color--black : #000;
+$color--white : #fff;
+
+body {
+    background-color: $color--black;
+
+    h1 {
+        color: $color--white;
+        font-size: 40px;
+        display: flex;;
+    }
+
+}
+
+// autoprefixer란
+// 브라우저 호환성을 위해 css에 접두사를 붙여주는 플러그인
+// postcss
+// 스타일의 후처리를 도와주는 패키지
+// postcss-loader
+// postcss를 웹팩에서 사용할 수 있게 해주는 로더
